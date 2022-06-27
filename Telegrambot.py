@@ -5,12 +5,12 @@ from telegram.ext import *
 
 
 #Fetching the bot information
-bot = Bot("Past token ID")
+bot = Bot("Pass token ID")
 print(bot.get_me())
 
 
 #Update for future changes
-updater=Updater("Past token ID ",use_context=True)
+updater=Updater("Pass token ID ",use_context=True)
 #use_context : if your telegram version is low then use false else use true
 
 #A dispatcher is used to dispatch this update to our telegram bot
